@@ -1,0 +1,563 @@
+[main]| INFO|[boot]|16:58:24,409 | Adding plugins from ./plugins
+[main]| WARN|[boot]|16:58:24,409 | No plugins directory found. No pluggin added
+[main]| INFO|[boot]|16:58:24,417 | Loading Default configuration
+[main]| INFO|[boot]|16:58:24,417 | Loading Configuration with file solrmeter.properties
+[main]| INFO|[SolrMeterMain]|16:58:24,418 | Using module: com.plugtree.solrmeter.StatisticsModule
+[main]| INFO|[Mapping]|16:58:24,434 | Loading mapping descriptors from file:/home/wanggang/develop/eclipse/work/sources/solrmeter/target/classes/StatisticDescriptorMapping.xml
+[main]| INFO|[SolrMeterMain]|16:58:24,621 | Using module: com.plugtree.solrmeter.ModelModule
+[main]| INFO|[SolrMeterMain]|16:58:24,622 | Using module: com.plugtree.solrmeter.StandalonePresentationModule
+[main]| INFO|[SolrMeterMain]|16:58:24,622 | Using module: com.plugtree.solrmeter.SolrMeterRunModeModule
+[main]| INFO|[I18n]|16:58:25,197 | Using Locale zh_CN
+[main]| INFO|[SolrServerRegistry]|16:58:25,722 | Connecting to Solr: http://localhost:8984/solr
+[main]| INFO|[boot]|16:58:26,015 | Adding Statistic histogram
+[main]| INFO|[boot]|16:58:26,080 | Adding Statistic timeRange
+[main]| INFO|[boot]|16:58:26,092 | Adding Statistic queryHistory
+[main]| INFO|[boot]|16:58:26,096 | Adding Statistic operationHistory
+[main]| INFO|[boot]|16:58:26,104 | Adding Statistic fullQueryStatistic
+[main]| INFO|[boot]|16:58:26,160 | Adding Statistic errorLog
+[main]| INFO|[boot]|16:58:26,163 | Adding Statistic CacheStatistic
+[main]| INFO|[boot]|16:58:26,176 | Adding Statistic QueryLogStatistic
+[main]| INFO|[boot]|16:58:26,176 | Adding Statistic CommitHistoryStatistic
+[main]| INFO|[boot]|16:58:26,176 | Adding Statistic SimpleOptimizeStatistic
+[main]| INFO|[boot]|16:58:26,176 | Adding Statistic SimpleQueryStatistic
+[main]| INFO|[boot]|16:58:26,176 | Adding Statistic OperationRateStatistic
+[Thread-65]|ERROR|[QueryOperation]|16:58:41,375 | Error on Query q=Flexible+and+Adaptable&indent=true&debugQuery=true&fl=*%2Cscore&facet=true&facet.field=content_type&facet.mincount=1&facet.limit=8&facet.method=fc&fq=manu%3ABelkin
+[Thread-59]|ERROR|[QueryOperation]|16:58:44,248 | Error on Query q=High&indent=true&debugQuery=true&fl=*%2Cscore&facet=true&facet.field=weight&facet.mincount=1&facet.limit=8&facet.method=fc&fq=inStock%3Atrue
+[AWT-EventQueue-0]| WARN|[HistogramQueryStatistic]|16:58:45,897 | No data to build histogram.
+[AWT-EventQueue-0]| WARN|[QueryTimeHistoryStatistic]|16:58:45,897 | No data to build statistic
+[AWT-EventQueue-0]| INFO|[SimpleQueryStatistic]|16:58:45,897 | Executed Queries: 0
+[AWT-EventQueue-0]| INFO|[SimpleQueryStatistic]|16:58:45,897 | Sum Query Time: 0
+[AWT-EventQueue-0]| INFO|[SimpleQueryStatistic]|16:58:45,897 | Total Client Time: 0
+[AWT-EventQueue-0]| INFO|[UpdateExecutorRandomImpl]|16:58:47,526 | Update Executor started
+[Thread-31]|ERROR|[UpdateOperation]|16:58:47,989 | org.apache.solr.client.solrj.SolrServerException: Server refused connection at: http://localhost:8984/solr
+[AWT-EventQueue-0]| INFO|[OptimizeExecutorController]|16:58:51,457 | Optimizing...
+[Thread-70]|ERROR|[OnDemandOptimizeExecutor]|16:58:51,462 | org.apache.solr.client.solrj.SolrServerException: Server refused connection at: http://localhost:8984/solr
+[AWT-EventQueue-0]| INFO|[OptimizeExecutorController]|16:58:52,688 | Optimizing...
+[Thread-72]|ERROR|[OnDemandOptimizeExecutor]|16:58:52,690 | org.apache.solr.client.solrj.SolrServerException: Server refused connection at: http://localhost:8984/solr
+[main]| INFO|[boot]|16:59:23,603 | Adding plugins from ./plugins
+[main]| WARN|[boot]|16:59:23,603 | No plugins directory found. No pluggin added
+[main]| INFO|[boot]|16:59:23,610 | Loading Default configuration
+[main]| INFO|[boot]|16:59:23,610 | Loading Configuration with file solrmeter.properties
+[main]| INFO|[SolrMeterMain]|16:59:23,611 | Using module: com.plugtree.solrmeter.StatisticsModule
+[main]| INFO|[Mapping]|16:59:23,626 | Loading mapping descriptors from file:/home/wanggang/develop/eclipse/work/sources/solrmeter/target/classes/StatisticDescriptorMapping.xml
+[main]| INFO|[SolrMeterMain]|16:59:23,823 | Using module: com.plugtree.solrmeter.ModelModule
+[main]| INFO|[SolrMeterMain]|16:59:23,824 | Using module: com.plugtree.solrmeter.StandalonePresentationModule
+[main]| INFO|[SolrMeterMain]|16:59:23,824 | Using module: com.plugtree.solrmeter.SolrMeterRunModeModule
+[main]| INFO|[I18n]|16:59:24,431 | Using Locale zh_CN
+[main]| INFO|[SolrServerRegistry]|16:59:24,925 | Connecting to Solr: http://localhost:8983/solr
+[main]| INFO|[boot]|16:59:25,150 | Adding Statistic histogram
+[main]| INFO|[boot]|16:59:25,201 | Adding Statistic timeRange
+[main]| INFO|[boot]|16:59:25,212 | Adding Statistic queryHistory
+[main]| INFO|[boot]|16:59:25,216 | Adding Statistic operationHistory
+[main]| INFO|[boot]|16:59:25,226 | Adding Statistic fullQueryStatistic
+[main]| INFO|[boot]|16:59:25,283 | Adding Statistic errorLog
+[main]| INFO|[boot]|16:59:25,288 | Adding Statistic CacheStatistic
+[main]| INFO|[boot]|16:59:25,301 | Adding Statistic QueryLogStatistic
+[main]| INFO|[boot]|16:59:25,301 | Adding Statistic CommitHistoryStatistic
+[main]| INFO|[boot]|16:59:25,301 | Adding Statistic SimpleOptimizeStatistic
+[main]| INFO|[boot]|16:59:25,301 | Adding Statistic SimpleQueryStatistic
+[main]| INFO|[boot]|16:59:25,301 | Adding Statistic OperationRateStatistic
+[Thread-48]|ERROR|[QueryOperation]|16:59:30,481 | Error on Query q=Volume&indent=true&debugQuery=true&fl=*%2Cscore&facet=true&facet.field=manu_exact&facet.mincount=1&facet.limit=8&facet.method=fc&fq=cat%3Aconnector
+[Thread-52]|ERROR|[QueryOperation]|16:59:31,537 | Error on Query q=Optimized&indent=true&debugQuery=true&fl=*%2Cscore&facet=true&facet.field=weight&facet.mincount=1&facet.limit=8&facet.method=fc&fq=weight%3A%5B10+TO+*%5D
+[Thread-59]|ERROR|[QueryOperation]|16:59:34,713 | Error on Query q=Replication+&indent=true&debugQuery=true&fl=*%2Cscore&facet=true&facet.field=price&facet.mincount=1&facet.limit=8&facet.method=fc&fq=manu%3A%22Maxtor+Corp%22
+[Thread-61]|ERROR|[QueryOperation]|16:59:35,837 | Error on Query q=Web&indent=true&debugQuery=true&fl=*%2Cscore&facet=true&facet.field=popularity&facet.mincount=1&facet.limit=8&facet.method=fc&fq=features%3AWidescreen
+[Thread-49]|ERROR|[QueryOperation]|16:59:35,979 | Error on Query q=Administration&indent=true&debugQuery=true&fl=*%2Cscore&facet=true&facet.field=weight&facet.mincount=1&facet.limit=8&facet.method=fc&fq=cat%3Aconnector
+[Thread-53]|ERROR|[QueryOperation]|16:59:36,895 | Error on Query q=with+XML+configuration+and&indent=true&debugQuery=true&fl=*%2Cscore&facet=true&facet.field=popularity&facet.mincount=1&facet.limit=8&facet.method=fc&fq=features%3Alatency
+[Thread-63]|ERROR|[QueryOperation]|16:59:37,212 | Error on Query q=Good+unicode+support&indent=true&debugQuery=true&fl=*%2Cscore&facet=true&facet.field=popularity&facet.mincount=1&facet.limit=8&facet.method=fc&fq=inStock%3Atrue
+[Thread-62]|ERROR|[QueryOperation]|16:59:37,975 | Error on Query q=HTML&indent=true&debugQuery=true&fl=*%2Cscore&facet=true&facet.field=weight&facet.mincount=1&facet.limit=8&facet.method=fc&fq=manu%3A%22Apple+Computer+Inc%22
+[Thread-66]|ERROR|[QueryOperation]|16:59:43,257 | Error on Query q=with+XML+configuration+and&indent=true&debugQuery=true&fl=*%2Cscore&facet=true&facet.field=manu_exact&facet.mincount=1&facet.limit=8&facet.method=fc&fq=manu%3ABelkin
+[main]| INFO|[boot]|17:00:22,515 | Adding plugins from ./plugins
+[main]| WARN|[boot]|17:00:22,516 | No plugins directory found. No pluggin added
+[main]| INFO|[boot]|17:00:22,523 | Loading Default configuration
+[main]| INFO|[boot]|17:00:22,523 | Loading Configuration with file solrmeter.properties
+[main]| INFO|[SolrMeterMain]|17:00:22,524 | Using module: com.plugtree.solrmeter.StatisticsModule
+[main]| INFO|[Mapping]|17:00:22,539 | Loading mapping descriptors from file:/home/wanggang/develop/eclipse/work/sources/solrmeter/target/classes/StatisticDescriptorMapping.xml
+[main]| INFO|[SolrMeterMain]|17:00:22,722 | Using module: com.plugtree.solrmeter.ModelModule
+[main]| INFO|[SolrMeterMain]|17:00:22,723 | Using module: com.plugtree.solrmeter.StandalonePresentationModule
+[main]| INFO|[SolrMeterMain]|17:00:22,723 | Using module: com.plugtree.solrmeter.SolrMeterRunModeModule
+[main]| INFO|[I18n]|17:00:23,291 | Using Locale zh_CN
+[main]| INFO|[SolrServerRegistry]|17:00:29,114 | Connecting to Solr: http://localhost:8983/solr/sentiment
+[main]| INFO|[boot]|17:00:29,375 | Adding Statistic histogram
+[main]| INFO|[boot]|17:00:29,472 | Adding Statistic timeRange
+[main]| INFO|[boot]|17:00:29,489 | Adding Statistic queryHistory
+[main]| INFO|[boot]|17:00:29,494 | Adding Statistic operationHistory
+[main]| INFO|[boot]|17:00:29,503 | Adding Statistic fullQueryStatistic
+[main]| INFO|[boot]|17:00:29,572 | Adding Statistic errorLog
+[main]| INFO|[boot]|17:00:29,576 | Adding Statistic CacheStatistic
+[main]| INFO|[boot]|17:00:29,594 | Adding Statistic QueryLogStatistic
+[main]| INFO|[boot]|17:00:29,594 | Adding Statistic CommitHistoryStatistic
+[main]| INFO|[boot]|17:00:29,594 | Adding Statistic SimpleOptimizeStatistic
+[main]| INFO|[boot]|17:00:29,594 | Adding Statistic SimpleQueryStatistic
+[main]| INFO|[boot]|17:00:29,594 | Adding Statistic OperationRateStatistic
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:00:32,546 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:72)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:84)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:62)
+	... 2 more
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:00:33,555 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:72)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:84)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:62)
+	... 2 more
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:00:34,562 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:72)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:84)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:62)
+	... 2 more
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:00:35,568 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:72)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:84)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:62)
+	... 2 more
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:00:36,573 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:72)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:84)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:62)
+	... 2 more
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:00:37,578 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:72)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:84)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:62)
+	... 2 more
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:00:38,583 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:72)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:84)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:62)
+	... 2 more
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:00:39,588 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:72)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:84)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:62)
+	... 2 more
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:00:40,593 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:72)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:84)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:62)
+	... 2 more
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:00:41,598 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:72)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:84)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:62)
+	... 2 more
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:00:42,603 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:72)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:84)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:62)
+	... 2 more
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:00:43,608 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:72)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:84)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:62)
+	... 2 more
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:00:44,614 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:72)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:84)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:62)
+	... 2 more
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:00:45,618 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:72)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:84)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:62)
+	... 2 more
+[AWT-EventQueue-0]| INFO|[HistogramQueryStatistic]|17:00:46,472 | ------------------ Histogram --------------------
+[AWT-EventQueue-0]| INFO|[HistogramQueryStatistic]|17:00:46,472 | 0ms - 100ms: 8
+[AWT-EventQueue-0]| INFO|[HistogramQueryStatistic]|17:00:46,473 | ---------------- End Histogram -------------------
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:00:46,473 | --------------Q TIME----------------------------
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:00:46,473 | 0sec - 10sec: 13
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:00:46,473 | 10sec - 20sec: 2
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:00:46,473 | --------------Q TIME----------------------------
+[AWT-EventQueue-0]| INFO|[SimpleQueryStatistic]|17:00:46,473 | Executed Queries: 8
+[AWT-EventQueue-0]| INFO|[SimpleQueryStatistic]|17:00:46,473 | Sum Query Time: 65
+[AWT-EventQueue-0]| INFO|[SimpleQueryStatistic]|17:00:46,474 | Total Client Time: 99
+[AWT-EventQueue-0]| INFO|[SimpleQueryStatistic]|17:00:46,474 | Query average QTime: 8
+[AWT-EventQueue-0]| INFO|[SimpleQueryStatistic]|17:00:46,474 | Client average QTime: 12
+[AWT-EventQueue-0]| INFO|[UpdateExecutorRandomImpl]|17:00:47,757 | Update Executor started
+[pool-1-thread-1]| INFO|[CommitOperation]|17:00:57,759 | commiting
+[pool-1-thread-1]| INFO|[CommitOperation]|17:00:58,133 | Commit OK
+[pool-1-thread-1]| INFO|[CommitOperation]|17:01:07,759 | commiting
+[pool-1-thread-1]| INFO|[CommitOperation]|17:01:08,112 | Commit OK
+[pool-1-thread-1]| INFO|[CommitOperation]|17:01:17,759 | commiting
+[pool-1-thread-1]| INFO|[CommitOperation]|17:01:18,085 | Commit OK
+[pool-1-thread-1]| INFO|[CommitOperation]|17:01:27,759 | commiting
+[pool-1-thread-1]| INFO|[CommitOperation]|17:01:28,185 | Commit OK
+[pool-1-thread-1]| INFO|[CommitOperation]|17:01:37,759 | commiting
+[pool-1-thread-1]| INFO|[CommitOperation]|17:01:38,140 | Commit OK
+[pool-1-thread-1]| INFO|[CommitOperation]|17:01:47,759 | commiting
+[pool-1-thread-1]| INFO|[CommitOperation]|17:01:48,123 | Commit OK
+[pool-1-thread-1]| INFO|[CommitOperation]|17:01:57,759 | commiting
+[pool-1-thread-1]| INFO|[CommitOperation]|17:01:58,417 | Commit OK
+[pool-1-thread-1]| INFO|[CommitOperation]|17:02:07,760 | commiting
+[pool-1-thread-1]| INFO|[CommitOperation]|17:02:07,764 | Commit OK
+[pool-1-thread-1]| INFO|[CommitOperation]|17:02:17,760 | commiting
+[pool-1-thread-1]| INFO|[CommitOperation]|17:02:18,195 | Commit OK
+[pool-1-thread-1]| INFO|[CommitOperation]|17:02:27,760 | commiting
+[pool-1-thread-1]| INFO|[CommitOperation]|17:02:28,127 | Commit OK
+[pool-1-thread-1]| INFO|[CommitOperation]|17:02:37,760 | commiting
+[pool-1-thread-1]| INFO|[CommitOperation]|17:02:38,100 | Commit OK
+[pool-1-thread-1]| INFO|[CommitOperation]|17:02:47,760 | commiting
+[pool-1-thread-1]| INFO|[CommitOperation]|17:02:48,146 | Commit OK
+[AWT-EventQueue-0]| INFO|[OptimizeExecutorController]|17:03:15,143 | Optimizing...
+[AWT-EventQueue-0]| INFO|[OptimizeExecutorController]|17:06:00,301 | Optimizing...
+[Thread-129]|ERROR|[CacheHistoryStatistic]|17:06:10,615 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:72)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:84)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:62)
+	... 2 more
+[Thread-129]|ERROR|[CacheHistoryStatistic]|17:06:11,619 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:72)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:84)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:62)
+	... 2 more
+[Thread-129]|ERROR|[CacheHistoryStatistic]|17:06:12,623 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:72)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:84)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:62)
+	... 2 more
+[AWT-EventQueue-0]| INFO|[HistogramQueryStatistic]|17:06:12,870 | ------------------ Histogram --------------------
+[AWT-EventQueue-0]| INFO|[HistogramQueryStatistic]|17:06:12,870 | 0ms - 100ms: 10
+[AWT-EventQueue-0]| INFO|[HistogramQueryStatistic]|17:06:12,870 | ---------------- End Histogram -------------------
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,870 | --------------Q TIME----------------------------
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,870 | 0sec - 10sec: 13
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,870 | 10sec - 20sec: 2
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,870 | 20sec - 30sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,871 | 30sec - 40sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,871 | 40sec - 50sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,871 | 50sec - 60sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,871 | 60sec - 70sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,871 | 70sec - 80sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,871 | 80sec - 90sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,871 | 90sec - 100sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,871 | 100sec - 110sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,871 | 110sec - 120sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,871 | 120sec - 130sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,871 | 130sec - 140sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,871 | 140sec - 150sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,871 | 150sec - 160sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,871 | 160sec - 170sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,872 | 170sec - 180sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,872 | 180sec - 190sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,872 | 190sec - 200sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,872 | 200sec - 210sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,872 | 210sec - 220sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,872 | 220sec - 230sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,872 | 230sec - 240sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,872 | 240sec - 250sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,872 | 250sec - 260sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,872 | 260sec - 270sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,872 | 270sec - 280sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,872 | 280sec - 290sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,873 | 290sec - 300sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,873 | 300sec - 310sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,873 | 310sec - 320sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,873 | 320sec - 330sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,873 | 330sec - 340sec: 4
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,873 | 340sec - 350sec: 2
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:06:12,873 | --------------Q TIME----------------------------
+[AWT-EventQueue-0]| INFO|[SimpleQueryStatistic]|17:06:12,873 | Executed Queries: 10
+[AWT-EventQueue-0]| INFO|[SimpleQueryStatistic]|17:06:12,873 | Sum Query Time: 71
+[AWT-EventQueue-0]| INFO|[SimpleQueryStatistic]|17:06:12,873 | Total Client Time: 110
+[AWT-EventQueue-0]| INFO|[SimpleQueryStatistic]|17:06:12,873 | Query average QTime: 7
+[AWT-EventQueue-0]| INFO|[SimpleQueryStatistic]|17:06:12,873 | Client average QTime: 11
+[main]| INFO|[boot]|17:06:32,506 | Adding plugins from ./plugins
+[main]| WARN|[boot]|17:06:32,506 | No plugins directory found. No pluggin added
+[main]| INFO|[boot]|17:06:32,514 | Loading Default configuration
+[main]| INFO|[boot]|17:06:32,514 | Loading Configuration with file solrmeter.properties
+[main]| INFO|[SolrMeterMain]|17:06:32,515 | Using module: com.plugtree.solrmeter.StatisticsModule
+[main]| INFO|[Mapping]|17:06:32,540 | Loading mapping descriptors from file:/home/wanggang/develop/eclipse/work/sources/solrmeter/target/classes/StatisticDescriptorMapping.xml
+[main]| INFO|[SolrMeterMain]|17:06:32,756 | Using module: com.plugtree.solrmeter.ModelModule
+[main]| INFO|[SolrMeterMain]|17:06:32,756 | Using module: com.plugtree.solrmeter.StandalonePresentationModule
+[main]| INFO|[SolrMeterMain]|17:06:32,757 | Using module: com.plugtree.solrmeter.SolrMeterRunModeModule
+[main]| INFO|[I18n]|17:06:33,264 | Using Locale zh_CN
+[main]| INFO|[SolrServerRegistry]|17:06:33,814 | Connecting to Solr: http://localhost:8983/solr/sentiment
+[main]| INFO|[boot]|17:06:34,042 | Adding Statistic histogram
+[main]| INFO|[boot]|17:06:34,091 | Adding Statistic timeRange
+[main]| INFO|[boot]|17:06:34,101 | Adding Statistic queryHistory
+[main]| INFO|[boot]|17:06:34,105 | Adding Statistic operationHistory
+[main]| INFO|[boot]|17:06:34,112 | Adding Statistic fullQueryStatistic
+[main]| INFO|[boot]|17:06:34,160 | Adding Statistic errorLog
+[main]| INFO|[boot]|17:06:34,163 | Adding Statistic CacheStatistic
+[main]| INFO|[boot]|17:06:34,176 | Adding Statistic QueryLogStatistic
+[main]| INFO|[boot]|17:06:34,176 | Adding Statistic CommitHistoryStatistic
+[main]| INFO|[boot]|17:06:34,176 | Adding Statistic SimpleOptimizeStatistic
+[main]| INFO|[boot]|17:06:34,176 | Adding Statistic SimpleQueryStatistic
+[main]| INFO|[boot]|17:06:34,176 | Adding Statistic OperationRateStatistic
+[main]| INFO|[boot]|17:08:12,969 | Adding plugins from ./plugins
+[main]| WARN|[boot]|17:08:12,969 | No plugins directory found. No pluggin added
+[main]| INFO|[boot]|17:08:12,978 | Loading Default configuration
+[main]| INFO|[boot]|17:08:12,978 | Loading Configuration with file solrmeter.properties
+[main]| INFO|[SolrMeterMain]|17:08:12,980 | Using module: com.plugtree.solrmeter.StatisticsModule
+[main]| INFO|[Mapping]|17:08:13,027 | Loading mapping descriptors from file:/home/wanggang/develop/eclipse/work/sources/solrmeter/target/classes/StatisticDescriptorMapping.xml
+[main]| INFO|[SolrMeterMain]|17:08:13,403 | Using module: com.plugtree.solrmeter.ModelModule
+[main]| INFO|[SolrMeterMain]|17:08:13,404 | Using module: com.plugtree.solrmeter.StandalonePresentationModule
+[main]| INFO|[SolrMeterMain]|17:08:13,405 | Using module: com.plugtree.solrmeter.SolrMeterRunModeModule
+[main]| INFO|[I18n]|17:08:14,072 | Using Locale zh_CN
+[main]| INFO|[SolrServerRegistry]|17:08:14,633 | Connecting to Solr: http://localhost:8983/solr/sentiment
+[main]| INFO|[boot]|17:08:14,903 | Adding Statistic histogram
+[main]| INFO|[boot]|17:08:14,955 | Adding Statistic timeRange
+[main]| INFO|[boot]|17:08:14,966 | Adding Statistic queryHistory
+[main]| INFO|[boot]|17:08:14,970 | Adding Statistic operationHistory
+[main]| INFO|[boot]|17:08:14,977 | Adding Statistic fullQueryStatistic
+[main]| INFO|[boot]|17:08:15,028 | Adding Statistic errorLog
+[main]| INFO|[boot]|17:08:15,031 | Adding Statistic CacheStatistic
+[main]| INFO|[boot]|17:08:15,042 | Adding Statistic QueryLogStatistic
+[main]| INFO|[boot]|17:08:15,042 | Adding Statistic CommitHistoryStatistic
+[main]| INFO|[boot]|17:08:15,042 | Adding Statistic SimpleOptimizeStatistic
+[main]| INFO|[boot]|17:08:15,042 | Adding Statistic SimpleQueryStatistic
+[main]| INFO|[boot]|17:08:15,042 | Adding Statistic OperationRateStatistic
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:08:21,079 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:72)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:84)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:62)
+	... 2 more
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:08:22,085 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:72)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:84)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:62)
+	... 2 more
+[main]| INFO|[boot]|17:10:38,162 | Adding plugins from ./plugins
+[main]| WARN|[boot]|17:10:38,162 | No plugins directory found. No pluggin added
+[main]| INFO|[boot]|17:10:38,175 | Loading Default configuration
+[main]| INFO|[boot]|17:10:38,176 | Loading Configuration with file solrmeter.properties
+[main]| INFO|[SolrMeterMain]|17:10:38,178 | Using module: com.plugtree.solrmeter.StatisticsModule
+[main]| INFO|[Mapping]|17:10:38,200 | Loading mapping descriptors from file:/home/wanggang/develop/eclipse/work/sources/solrmeter/target/classes/StatisticDescriptorMapping.xml
+[main]| INFO|[SolrMeterMain]|17:10:38,403 | Using module: com.plugtree.solrmeter.ModelModule
+[main]| INFO|[SolrMeterMain]|17:10:38,404 | Using module: com.plugtree.solrmeter.StandalonePresentationModule
+[main]| INFO|[SolrMeterMain]|17:10:38,404 | Using module: com.plugtree.solrmeter.SolrMeterRunModeModule
+[main]| INFO|[I18n]|17:10:38,928 | Using Locale zh_CN
+[main]| INFO|[SolrServerRegistry]|17:10:39,396 | Connecting to Solr: http://localhost:8983/solr/sentiment
+[main]| INFO|[boot]|17:10:39,664 | Adding Statistic histogram
+[main]| INFO|[boot]|17:10:39,713 | Adding Statistic timeRange
+[main]| INFO|[boot]|17:10:39,724 | Adding Statistic queryHistory
+[main]| INFO|[boot]|17:10:39,728 | Adding Statistic operationHistory
+[main]| INFO|[boot]|17:10:39,735 | Adding Statistic fullQueryStatistic
+[main]| INFO|[boot]|17:10:39,785 | Adding Statistic errorLog
+[main]| INFO|[boot]|17:10:39,787 | Adding Statistic CacheStatistic
+[main]| INFO|[boot]|17:10:39,798 | Adding Statistic QueryLogStatistic
+[main]| INFO|[boot]|17:10:39,798 | Adding Statistic CommitHistoryStatistic
+[main]| INFO|[boot]|17:10:39,798 | Adding Statistic SimpleOptimizeStatistic
+[main]| INFO|[boot]|17:10:39,798 | Adding Statistic SimpleQueryStatistic
+[main]| INFO|[boot]|17:10:39,798 | Adding Statistic OperationRateStatistic
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:10:44,905 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:74)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:88)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:64)
+	... 2 more
+[main]| INFO|[boot]|17:12:08,944 | Adding plugins from ./plugins
+[main]| WARN|[boot]|17:12:08,945 | No plugins directory found. No pluggin added
+[main]| INFO|[boot]|17:12:08,954 | Loading Default configuration
+[main]| INFO|[boot]|17:12:08,954 | Loading Configuration with file solrmeter.properties
+[main]| INFO|[SolrMeterMain]|17:12:08,955 | Using module: com.plugtree.solrmeter.StatisticsModule
+[main]| INFO|[Mapping]|17:12:08,973 | Loading mapping descriptors from file:/home/wanggang/develop/eclipse/work/sources/solrmeter/target/classes/StatisticDescriptorMapping.xml
+[main]| INFO|[SolrMeterMain]|17:12:09,277 | Using module: com.plugtree.solrmeter.ModelModule
+[main]| INFO|[SolrMeterMain]|17:12:09,278 | Using module: com.plugtree.solrmeter.StandalonePresentationModule
+[main]| INFO|[SolrMeterMain]|17:12:09,278 | Using module: com.plugtree.solrmeter.SolrMeterRunModeModule
+[main]| INFO|[I18n]|17:12:09,777 | Using Locale zh_CN
+[main]| INFO|[SolrServerRegistry]|17:12:10,299 | Connecting to Solr: http://localhost:8983/solr/sentiment
+[main]| INFO|[boot]|17:12:10,538 | Adding Statistic histogram
+[main]| INFO|[boot]|17:12:10,590 | Adding Statistic timeRange
+[main]| INFO|[boot]|17:12:10,601 | Adding Statistic queryHistory
+[main]| INFO|[boot]|17:12:10,605 | Adding Statistic operationHistory
+[main]| INFO|[boot]|17:12:10,612 | Adding Statistic fullQueryStatistic
+[main]| INFO|[boot]|17:12:10,667 | Adding Statistic errorLog
+[main]| INFO|[boot]|17:12:10,671 | Adding Statistic CacheStatistic
+[main]| INFO|[boot]|17:12:10,684 | Adding Statistic QueryLogStatistic
+[main]| INFO|[boot]|17:12:10,684 | Adding Statistic CommitHistoryStatistic
+[main]| INFO|[boot]|17:12:10,684 | Adding Statistic SimpleOptimizeStatistic
+[main]| INFO|[boot]|17:12:10,684 | Adding Statistic SimpleQueryStatistic
+[main]| INFO|[boot]|17:12:10,684 | Adding Statistic OperationRateStatistic
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:12:42,538 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:74)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:86)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:64)
+	... 2 more
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:12:43,544 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:74)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:86)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:64)
+	... 2 more
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:12:44,550 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:74)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCacheData(RequestHandlerConnection.java:86)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:64)
+	... 2 more
+[main]| INFO|[boot]|17:13:26,758 | Adding plugins from ./plugins
+[main]| WARN|[boot]|17:13:26,759 | No plugins directory found. No pluggin added
+[main]| INFO|[boot]|17:13:26,766 | Loading Default configuration
+[main]| INFO|[boot]|17:13:26,766 | Loading Configuration with file solrmeter.properties
+[main]| INFO|[SolrMeterMain]|17:13:26,768 | Using module: com.plugtree.solrmeter.StatisticsModule
+[main]| INFO|[Mapping]|17:13:26,783 | Loading mapping descriptors from file:/home/wanggang/develop/eclipse/work/sources/solrmeter/target/classes/StatisticDescriptorMapping.xml
+[main]| INFO|[SolrMeterMain]|17:13:26,970 | Using module: com.plugtree.solrmeter.ModelModule
+[main]| INFO|[SolrMeterMain]|17:13:26,971 | Using module: com.plugtree.solrmeter.StandalonePresentationModule
+[main]| INFO|[SolrMeterMain]|17:13:26,971 | Using module: com.plugtree.solrmeter.SolrMeterRunModeModule
+[main]| INFO|[I18n]|17:13:27,493 | Using Locale zh_CN
+[main]| INFO|[SolrServerRegistry]|17:13:27,945 | Connecting to Solr: http://localhost:8983/solr/sentiment
+[main]| INFO|[boot]|17:13:28,231 | Adding Statistic histogram
+[main]| INFO|[boot]|17:13:28,279 | Adding Statistic timeRange
+[main]| INFO|[boot]|17:13:28,291 | Adding Statistic queryHistory
+[main]| INFO|[boot]|17:13:28,295 | Adding Statistic operationHistory
+[main]| INFO|[boot]|17:13:28,303 | Adding Statistic fullQueryStatistic
+[main]| INFO|[boot]|17:13:28,353 | Adding Statistic errorLog
+[main]| INFO|[boot]|17:13:28,355 | Adding Statistic CacheStatistic
+[main]| INFO|[boot]|17:13:28,367 | Adding Statistic QueryLogStatistic
+[main]| INFO|[boot]|17:13:28,367 | Adding Statistic CommitHistoryStatistic
+[main]| INFO|[boot]|17:13:28,367 | Adding Statistic SimpleOptimizeStatistic
+[main]| INFO|[boot]|17:13:28,367 | Adding Statistic SimpleQueryStatistic
+[main]| INFO|[boot]|17:13:28,367 | Adding Statistic OperationRateStatistic
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:13:34,497 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:74)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCumulativeCacheData(RequestHandlerConnection.java:107)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:69)
+	... 2 more
+[Thread-67]|ERROR|[CacheHistoryStatistic]|17:13:35,504 | Could not update statistic
+com.plugtree.solrmeter.model.exception.StatisticConnectionException: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:74)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic.updateData(CacheHistoryStatistic.java:114)
+	at com.plugtree.solrmeter.model.statistic.CacheHistoryStatistic$StatisticUpdateThread.run(CacheHistoryStatistic.java:163)
+Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.lang.String
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getCumulativeCacheData(RequestHandlerConnection.java:107)
+	at com.plugtree.solrmeter.model.statistic.RequestHandlerConnection.getData(RequestHandlerConnection.java:69)
+	... 2 more
+[main]| INFO|[boot]|17:15:30,333 | Adding plugins from ./plugins
+[main]| WARN|[boot]|17:15:30,334 | No plugins directory found. No pluggin added
+[main]| INFO|[boot]|17:15:30,341 | Loading Default configuration
+[main]| INFO|[boot]|17:15:30,341 | Loading Configuration with file solrmeter.properties
+[main]| INFO|[SolrMeterMain]|17:15:30,342 | Using module: com.plugtree.solrmeter.StatisticsModule
+[main]| INFO|[Mapping]|17:15:30,358 | Loading mapping descriptors from file:/home/wanggang/develop/eclipse/work/sources/solrmeter/target/classes/StatisticDescriptorMapping.xml
+[main]| INFO|[SolrMeterMain]|17:15:30,670 | Using module: com.plugtree.solrmeter.ModelModule
+[main]| INFO|[SolrMeterMain]|17:15:30,671 | Using module: com.plugtree.solrmeter.StandalonePresentationModule
+[main]| INFO|[SolrMeterMain]|17:15:30,672 | Using module: com.plugtree.solrmeter.SolrMeterRunModeModule
+[main]| INFO|[I18n]|17:15:31,308 | Using Locale zh_CN
+[main]| INFO|[SolrServerRegistry]|17:15:32,484 | Connecting to Solr: http://localhost:8983/solr/sentiment
+[main]| INFO|[boot]|17:15:32,730 | Adding Statistic histogram
+[main]| INFO|[boot]|17:15:32,780 | Adding Statistic timeRange
+[main]| INFO|[boot]|17:15:32,791 | Adding Statistic queryHistory
+[main]| INFO|[boot]|17:15:32,796 | Adding Statistic operationHistory
+[main]| INFO|[boot]|17:15:32,803 | Adding Statistic fullQueryStatistic
+[main]| INFO|[boot]|17:15:32,854 | Adding Statistic errorLog
+[main]| INFO|[boot]|17:15:32,857 | Adding Statistic CacheStatistic
+[main]| INFO|[boot]|17:15:32,867 | Adding Statistic QueryLogStatistic
+[main]| INFO|[boot]|17:15:32,867 | Adding Statistic CommitHistoryStatistic
+[main]| INFO|[boot]|17:15:32,868 | Adding Statistic SimpleOptimizeStatistic
+[main]| INFO|[boot]|17:15:32,868 | Adding Statistic SimpleQueryStatistic
+[main]| INFO|[boot]|17:15:32,868 | Adding Statistic OperationRateStatistic
+[AWT-EventQueue-0]| INFO|[HistogramQueryStatistic]|17:16:41,522 | ------------------ Histogram --------------------
+[AWT-EventQueue-0]| INFO|[HistogramQueryStatistic]|17:16:41,522 | 0ms - 100ms: 21
+[AWT-EventQueue-0]| INFO|[HistogramQueryStatistic]|17:16:41,522 | ---------------- End Histogram -------------------
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:16:41,522 | --------------Q TIME----------------------------
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:16:41,523 | 0sec - 10sec: 1
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:16:41,523 | 10sec - 20sec: 1
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:16:41,523 | 20sec - 30sec: 1
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:16:41,523 | 30sec - 40sec: 0
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:16:41,523 | 40sec - 50sec: 1
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:16:41,523 | 50sec - 60sec: 1
+[AWT-EventQueue-0]| INFO|[QueryTimeHistoryStatistic]|17:16:41,524 | --------------Q TIME----------------------------
+[AWT-EventQueue-0]| INFO|[SimpleQueryStatistic]|17:16:41,524 | Executed Queries: 21
+[AWT-EventQueue-0]| INFO|[SimpleQueryStatistic]|17:16:41,524 | Sum Query Time: 27
+[AWT-EventQueue-0]| INFO|[SimpleQueryStatistic]|17:16:41,524 | Total Client Time: 101
+[AWT-EventQueue-0]| INFO|[SimpleQueryStatistic]|17:16:41,524 | Query average QTime: 1
+[AWT-EventQueue-0]| INFO|[SimpleQueryStatistic]|17:16:41,524 | Client average QTime: 4
+[AWT-EventQueue-0]| INFO|[UpdateExecutorRandomImpl]|17:16:44,335 | Update Executor started
+[pool-1-thread-1]| INFO|[CommitOperation]|17:16:54,337 | commiting
+[pool-1-thread-1]| INFO|[CommitOperation]|17:16:54,707 | Commit OK
+[pool-1-thread-1]| INFO|[CommitOperation]|17:17:04,337 | commiting
+[pool-1-thread-1]| INFO|[CommitOperation]|17:17:04,341 | Commit OK
+[pool-1-thread-1]| INFO|[CommitOperation]|17:17:14,337 | commiting
+[pool-1-thread-1]| INFO|[CommitOperation]|17:17:14,730 | Commit OK
+[pool-1-thread-1]| INFO|[CommitOperation]|17:17:24,337 | commiting
+[pool-1-thread-1]| INFO|[CommitOperation]|17:17:24,755 | Commit OK
