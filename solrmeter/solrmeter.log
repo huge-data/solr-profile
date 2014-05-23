@@ -561,3 +561,26 @@ Caused by: java.lang.ClassCastException: java.lang.Float cannot be cast to java.
 [pool-1-thread-1]| INFO|[CommitOperation]|17:17:14,730 | Commit OK
 [pool-1-thread-1]| INFO|[CommitOperation]|17:17:24,337 | commiting
 [pool-1-thread-1]| INFO|[CommitOperation]|17:17:24,755 | Commit OK
+[main]| INFO|[boot]|09:04:09,880 | Adding plugins from ./plugins
+[main]| WARN|[boot]|09:04:09,881 | No plugins directory found. No pluggin added
+[main]| INFO|[boot]|09:04:09,888 | Loading Default configuration
+[main]| INFO|[boot]|09:04:09,888 | Loading Configuration with file solrmeter.properties
+[main]| INFO|[SolrMeterMain]|09:04:09,889 | Using module: com.plugtree.solrmeter.StatisticsModule
+[main]| INFO|[Mapping]|09:04:09,905 | Loading mapping descriptors from file:/home/wanggang/develop/eclipse/work/solr-profile/solrmeter/target/classes/StatisticDescriptorMapping.xml
+[main]| INFO|[SolrMeterMain]|09:04:10,090 | Using module: com.plugtree.solrmeter.ModelModule
+[main]| INFO|[SolrMeterMain]|09:04:10,090 | Using module: com.plugtree.solrmeter.StandalonePresentationModule
+[main]| INFO|[SolrMeterMain]|09:04:10,091 | Using module: com.plugtree.solrmeter.SolrMeterRunModeModule
+[main]| INFO|[I18n]|09:04:10,584 | Using Locale zh_CN
+[main]| INFO|[SolrServerRegistry]|09:04:10,780 | Connecting to Solr: http://localhost:8983/solr/sentiment
+[main]| INFO|[boot]|09:04:11,020 | Adding Statistic histogram
+[main]| INFO|[boot]|09:04:11,075 | Adding Statistic timeRange
+[main]| INFO|[boot]|09:04:11,085 | Adding Statistic queryHistory
+[main]| INFO|[boot]|09:04:11,089 | Adding Statistic operationHistory
+[main]| INFO|[boot]|09:04:11,096 | Adding Statistic fullQueryStatistic
+[main]| INFO|[boot]|09:04:11,148 | Adding Statistic errorLog
+[main]| INFO|[boot]|09:04:11,150 | Adding Statistic CacheStatistic
+[main]| INFO|[boot]|09:04:11,161 | Adding Statistic QueryLogStatistic
+[main]| INFO|[boot]|09:04:11,162 | Adding Statistic CommitHistoryStatistic
+[main]| INFO|[boot]|09:04:11,162 | Adding Statistic SimpleOptimizeStatistic
+[main]| INFO|[boot]|09:04:11,162 | Adding Statistic SimpleQueryStatistic
+[main]| INFO|[boot]|09:04:11,162 | Adding Statistic OperationRateStatistic
